@@ -27,5 +27,6 @@
   </languages>
   <subsystems>Subsystem.Архейдж</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Рецепты</catalogs>
   <documents>Document.РасчетРецепта</documents>
 </mdclass:Configuration>

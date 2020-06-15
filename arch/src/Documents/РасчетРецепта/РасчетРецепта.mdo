@@ -42,6 +42,178 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cedd8ffa-7f5d-4519-b20d-a82acc144afa">
+    <name>Рецепт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецепт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рецепты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d277f14-1bec-474c-9a3d-30f7f5b477aa">
+    <name>ЦенаРемесленнойРепутации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена ремесленной репутации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c2bb1de-8675-40d8-ad7b-f767e85b266d">
+    <name>Маржа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маржа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0d792a3-3333-4a74-a22c-dcfcfcd88a4e">
+    <name>МоаржаСРемРеп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моаржа с учетом (рем реп)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81fff97e-d6ba-41c0-a263-4d1cfd9b2c81">
+    <name>ОР1000</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость 1000 ОР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfcfcf15-abe8-43f0-9c76-640e1edba584">
+    <name>ОР1000РемРеп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость 1000 ОР (с учетом рем. реп.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89b75c25-26bc-4b9b-9932-715398a44561">
+    <name>ОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2e54495-038f-4c83-b5df-d3f14591a31d">
+    <name>РемесленнаяРепутация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремесленная репутация</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74e63a85-1042-4bed-a0fb-789aa77c246a">
+    <name>РемесленнаяРепутацияЗолотом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремесленная репутация золотом</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a70757b3-4b61-45b3-a822-0da5f421e041">
+    <name>Золото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a87d0967-446a-4ec1-933b-5304275b5070">
+    <name>Прибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прибыль</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4385801c-5199-4bdb-a977-3e07f7dfeb84">
     <name>ФормаДокумента</name>
     <synonym>
@@ -131,10 +303,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ef4ff214-d10f-4cca-b5df-f0702e27192a">
-      <name>СтимостьПартии</name>
+      <name>СтоимостьПартии</name>
       <synonym>
         <key>ru</key>
-        <value>Стимость партии</value>
+        <value>Стоимость партии</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -152,10 +324,10 @@
       <objectType typeId="14574a31-a11f-4c0e-a77e-c8362ade9300" valueTypeId="14f21252-8db1-428e-87f2-889312f86938"/>
       <rowType typeId="185e9a63-66e2-4811-8af2-bdfbefaf3cf4" valueTypeId="f625dad3-ef97-46ea-a372-d7f47dbfeda1"/>
     </producedTypes>
-    <name>ЗатратыРемонтнаяРепутация</name>
+    <name>ЗатратыРемесленнаяРепутация</name>
     <synonym>
       <key>ru</key>
-      <value>Затраты ремонтная репутация</value>
+      <value>Затраты ремесленная репутация</value>
     </synonym>
     <attributes uuid="6ca153e2-2250-43b3-9f87-5ea0d172bdb4">
       <name>Номенклатура</name>
@@ -218,10 +390,26 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="a68beaac-3f12-4f1c-9361-8fb90f480267">
-      <name>СтимостьПартии</name>
+      <name>СтоимостьПартии</name>
       <synonym>
         <key>ru</key>
-        <value>Стимость партии</value>
+        <value>Стоимость партии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8fc4bc30-c07a-4c11-9c01-0c59218355b4">
+      <name>СтоимостьЗолотом</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость золотом</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -305,10 +493,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="669190c8-80fa-43b1-80c5-3d0488b44afe">
-      <name>СтимостьПартии</name>
+      <name>СтоимостьПартии</name>
       <synonym>
         <key>ru</key>
-        <value>Стимость партии</value>
+        <value>Стоимость партии</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -344,10 +532,26 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1af26501-137e-4c59-8209-ff40cb67fbe5">
-      <name>Количество</name>
+      <name>КоличествоДляШтуки</name>
       <synonym>
         <key>ru</key>
-        <value>Количество</value>
+        <value>Количество для штуки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="569cb683-21d5-4b12-848a-8e4c56be0ed9">
+      <name>КоличествоДляПартии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество для партии</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -376,10 +580,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="51bbeea5-ed47-4512-a4dd-cf432aa7ee15">
-      <name>Сумма</name>
+      <name>СтоимостьПартии</name>
       <synonym>
         <key>ru</key>
-        <value>Сумма</value>
+        <value>Стоимость партии</value>
       </synonym>
       <type>
         <types>Number</types>

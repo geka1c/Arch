@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be8bc921-8b34-4f0e-a7fb-8c1349c61fdb">
+  <producedTypes>
+    <objectType typeId="297e802b-1fba-42aa-bcc6-635801aa7e83" valueTypeId="3f72d7b7-6014-4456-be4c-24cb7cffcd97"/>
+    <refType typeId="fc9be112-dd66-4c8e-ae8f-f0978ad49612" valueTypeId="7cfe799e-c132-4289-88ba-52d6cd7649f3"/>
+    <selectionType typeId="540964dd-2f45-4267-a7ca-5033faf64bd8" valueTypeId="6d9ecd1d-c5f9-499e-82fb-8892f664cd32"/>
+    <listType typeId="c8633509-fd37-4f59-badf-fda4ced21e55" valueTypeId="d1175c0f-8d25-4f36-b058-feb2692d0a44"/>
+    <managerType typeId="86860a97-0231-4e6b-9730-44dbcb6ae855" valueTypeId="46206150-45a5-4f10-bb77-feea29e59b70"/>
+  </producedTypes>
+  <name>Рецепты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рецепты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Рецепты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Рецепты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Рецепты.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="035af682-f07c-423c-a242-c202e0652461">
+    <producedTypes>
+      <objectType typeId="0ec93770-416e-491b-965b-e072d60324c9" valueTypeId="8c774052-eddb-4290-a216-fe49b12023eb"/>
+      <rowType typeId="c5f11fb0-e881-4327-a655-7597600e1554" valueTypeId="0cc0158d-e9b5-44ab-b078-6bb872915820"/>
+    </producedTypes>
+    <name>ЗатратыЗолото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты золото</value>
+    </synonym>
+    <attributes uuid="7185ed9c-08d4-4be7-90c1-58525217a550">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c077227-2ef9-43bb-a697-227fc482e4b2">
+      <name>КоличествоДляШтуки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество для штуки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a79be1c-3342-4d58-acee-c121c012fd47">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="66dda65a-f80e-417f-84cf-3f8686e26bbb">
+    <producedTypes>
+      <objectType typeId="03d17bc5-587f-48bd-8e27-3c91bada64d4" valueTypeId="3590ce91-cb33-4eca-8d81-5e78b2d70d21"/>
+      <rowType typeId="4df979c9-0812-4073-824f-ad5d6086dc52" valueTypeId="a8518310-9852-409c-adc0-465e6713b384"/>
+    </producedTypes>
+    <name>ЗатратыРемесленнаяРепутация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты ремесленная репутация</value>
+    </synonym>
+    <attributes uuid="c9c8c145-acdd-4b95-af87-eb2512962d97">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="65bc9025-094e-454d-ad59-c94b84a2aeb5">
+      <name>КоличествоДляШтуки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество для штуки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3429c6e6-d154-48be-af86-eb095159bf41">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9fa2a361-e0a4-404d-a843-4a79de4e4737">
+    <producedTypes>
+      <objectType typeId="efa9b1b1-9d24-480f-bf75-9a44220f41ed" valueTypeId="19f658a2-56e3-441c-8619-ed7346ead48d"/>
+      <rowType typeId="f9b554dc-5beb-4797-b6ef-9469135637fa" valueTypeId="9b41677b-3e02-4f63-9bc5-a86aed7136a5"/>
+    </producedTypes>
+    <name>ЗатратыОчкиРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты очки работы</value>
+    </synonym>
+    <attributes uuid="b467ae2d-32c9-4e9f-9e14-294a7bf17d98">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="792889df-69b8-4098-bddd-33b7c4eca525">
+      <name>КоличествоДляШтуки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество для штуки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="36dd7d81-e47c-4ea9-9192-c6dc411495b6">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="89195d73-99ba-423a-a8ce-351e75939cd6">
+    <producedTypes>
+      <objectType typeId="813b463c-23d9-46a7-ad62-0c0390da978d" valueTypeId="d92e05b6-7ffb-4474-abe0-b0c8517ea8b7"/>
+      <rowType typeId="c2ff730d-c922-472d-832f-0429efc27294" valueTypeId="1c518adc-bceb-4bde-9e86-b847a643c81a"/>
+    </producedTypes>
+    <name>Получили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получили</value>
+    </synonym>
+    <attributes uuid="6cd41023-8548-40dc-b69b-4512c7856983">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa26db06-6ef2-45d1-837e-ca4f2a191fb1">
+      <name>КоличествоДляШтуки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество для штуки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a156fb24-4c50-4c7d-bdc0-7b0142fa2ee5">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="306ecac7-9f52-4f38-9cc6-cd03fcd77ce9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
