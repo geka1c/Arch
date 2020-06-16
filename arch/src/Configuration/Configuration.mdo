@@ -29,4 +29,5 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Рецепты</catalogs>
   <documents>Document.РасчетРецепта</documents>
+  <informationRegisters>InformationRegister.МаржинальностьРецепта</informationRegisters>
 </mdclass:Configuration>

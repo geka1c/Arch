@@ -19,6 +19,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -31,6 +32,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Рецепты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Рецепты.Form.ФормаСписка</defaultListForm>
   <tabularSections uuid="035af682-f07c-423c-a242-c202e0652461">
     <producedTypes>
       <objectType typeId="0ec93770-416e-491b-965b-e072d60324c9" valueTypeId="8c774052-eddb-4290-a216-fe49b12023eb"/>
@@ -256,6 +258,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f1db1ae-c245-454e-a91e-6d107f89a6c8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

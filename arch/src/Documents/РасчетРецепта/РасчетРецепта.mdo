@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РасчетРецепта.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РасчетРецепта.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.МаржинальностьРецепта</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="4b88b26b-8fd5-400d-a8f6-0640092162cb">

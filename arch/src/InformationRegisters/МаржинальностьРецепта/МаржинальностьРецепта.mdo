@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b82bea63-38f2-4a6f-a470-671fe9ffa1b4">
+  <producedTypes>
+    <selectionType typeId="40d6ae49-e015-48fe-a505-8980295be01b" valueTypeId="e6f9553f-0215-47d8-83ae-36741bbf6f37"/>
+    <listType typeId="f33f02cb-53c0-44b9-8753-fcb9a756a698" valueTypeId="fd879f78-0510-4549-9513-e2cf631b71df"/>
+    <managerType typeId="046f3ab3-9044-433e-95fb-36a78bd4131c" valueTypeId="68b7b99d-d503-40a2-b5a4-7e00aa4fdd8d"/>
+    <recordSetType typeId="551acc50-c6d2-47f2-a9ff-3d6597d80891" valueTypeId="5f8cd3cf-7a8e-493b-9221-f4a5f087561e"/>
+    <recordKeyType typeId="33e8f646-7f95-42ee-a471-a32274cae680" valueTypeId="ec9e9d58-915f-4705-b055-2e88128f8d1c"/>
+    <recordType typeId="711c8783-800e-490b-94ff-e4de6911a15c" valueTypeId="e4536c35-c77f-4c6c-8bf5-295a43a3e1ed"/>
+    <recordManagerType typeId="c095d71d-5508-40f0-9915-d132cf3d7f9a" valueTypeId="14e1e93a-9f53-45b4-9540-622c36a61d1d"/>
+  </producedTypes>
+  <name>МаржинальностьРецепта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маржинальность рецепта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="54932d72-371b-4374-b473-fc0d47b0784f">
+    <name>ОР1000</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость 1000 ОР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="efd8ccfc-853f-44f6-83ae-4422e96135c2">
+    <name>ОР1000РемРеп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость 1000 ОР  (с учетом рем реп)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="79ded30b-d28b-4a46-9593-531948d44a3f">
+    <name>Рецепт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецепт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Рецепты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
