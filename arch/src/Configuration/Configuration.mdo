@@ -30,4 +30,5 @@
   <catalogs>Catalog.Рецепты</catalogs>
   <documents>Document.РасчетРецепта</documents>
   <informationRegisters>InformationRegister.МаржинальностьРецепта</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
 </mdclass:Configuration>

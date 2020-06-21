@@ -175,6 +175,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ЗатратыЗолото.Номенклатура</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ЗатратыЗолотоНоменклатураПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ЗатратыЗолотоНоменклатураРасширеннаяПодсказка</name>
             <id>29</id>
@@ -1423,6 +1427,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Получили.Номенклатура</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПолучилиНоменклатураПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПолучилиНоменклатураРасширеннаяПодсказка</name>
             <id>110</id>

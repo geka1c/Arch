@@ -3,6 +3,13 @@
   <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
   <columns>
     <items>
+      <form>Catalog.Рецепты.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+    <items>
       <form>Document.РасчетРецепта.Form.ФормаСписка</form>
       <height>10</height>
       <visibility>
